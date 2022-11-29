@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Cassava">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Cassava, html, css, javascript">
+        <meta name="author" content="AJ D. Antino">
+        <title>Casa Pastries Enterpries</title>
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="shortcut icon" type="image/png" href="images/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="mission and vision.html">MISSION AND VISSION</a></li>   
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Mission and Vision</h1>
+        </section>
+
+        <!-- Mission and Vision -->
+        <section class="mission-vision">
+            <div class="row">
+                <div class="mission">
+                    <img src="images/pic1..png">
+                    <h2>Our Mission</h2>
+                    <p>
+                        To provide unique and nutritious cassava that will be loved by the customers. 
+
+                        To introduce to the market innovative pastries using cassava as the main ingredient. 
+
+                        To highlight Filipino culture.
+                    </p>
+                    <br>
+                    <h2>Our Vision</h2>
+                    <p>
+                        To be known in the market that has more than one physical store.
+
+                        To gain a lot of customers within 5 years.
+
+                        Be the best seller cassava churros that will be remembered in every bite of the customers. 
+
+                    </p>
+                    <br>
+                    <h2>Our Objectives</h2>
+                    <p>
+                        To have a good relationship with the customers in the span of a year.
+
+                        To innovate new products using local ingredients which is cassava.
+                    </p>
+        </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>TRIPLE J always care for their customer as a young entrepreneur 
+            we want to start our chapter as a producer  <br> that can fulfill 
+            thier needs and wants by introducing this product on market </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-envelope"></i>
+        </div>
+        <p>Made by Casa Pastries</p>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    </body>
+</html>

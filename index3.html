@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Cassava">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Cassava, html, css, javascript">
+        <meta name="author" content="AJ D. Antino">
+        <title>Casa Pastries Enterpries</title>
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="shortcut icon" type="image/png" href="images/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="mission and vision.html">MISSION AND VISSION</a></li>   
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <img src="images/grouppic.jpg">
+            </div> 
+            <div class="about-col">
+                <h1>We serve the best Pinoy Churros</h1>
+                <p>Everywhere you go in the Philippines you see aspiring individuals whom want to try their lucks in different fields, and some of those individuals are students who has a big dream to be successful in different fields.
+
+                    Triple J’s are a people who are one of the creator of Cassava Churros that has a lot of ambition for the business to be successful, The people in mind are Jeffrey Ocenar, Jaira San Pedro, and John Dave Pahamutang.
+                
+                    Jaira San Pedro are a young leader who has a lot of determination and has a lot of pride when it comes to her capabilities and skills, not only do she excel in class but also outside of the school. Jaira Is a passionate student who excel in a lot of things yet she tried to go to this risky ventures to prove that she has the quality to become a true businesswoman. 
+                
+                    John Dave Pahamutang are a young man who excel in a lot of things in and outside of school with the help of his peers, he was a cheerful youngman who aspire to become a good and passionate leader. Joyful is the embodiment of his younger years he was a talk of the group and always be a idol for some.
+                
+                    Jeffrey Ocenar are a young man who knows no risk, He doesn’t know where he excel but try to do anything without a questions, he was observant and has a lot of questions in mind that keep him interested in some things. By being observant he realise that business can go to success or failure yet try to walk on this path to prove that he has something that other’s doesn’t have. 
+                
+                By this three person whom work together to venture the Professional world, they will achieve things with the help of one another, And this Cassava Churros would be their stepping stone.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>TRIPLE J always care for their customer as a young entrepreneur 
+            we want to start our chapter as a producer  <br> that can fulfill 
+            thier needs and wants by introducing this product on market </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-envelope"></i>
+        </div>
+        <p>Made by Casa Pastries</p>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    </body>
+</html>
